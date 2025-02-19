@@ -144,3 +144,237 @@
     </article>
   
   </section>
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="assets/icons/Favicon.svg" type="image/x-icon" />
+    <title>Lux Ventus Blog</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="loading-screen">
+      <div class="spinner"></div>
+    </div>
+    <div class="content-wrapper">
+      <header>
+        <a href="#" class="logo"> LUX <span>VENTUS</span> </a>
+
+        <div class="menu">
+          <label class="burger" for="burger">
+            <input class="hidden" id="burger" type="checkbox" /><span></span>
+          </label>
+
+          <nav class="navbar">
+            <div class="navbar__content">
+              <ul class="navbar__links-list">
+                <li><a href="#" class="navbar__link-item">Fashion</a></li>
+                <li><a href="#" class="navbar__link-item">Lifestyle</a></li>
+                <li><a href="#" class="navbar__link-item">Spiritual</a></li>
+                <li><a href="#" class="navbar__link-item">Mental Health</a></li>
+                <li><a href="#" class="navbar__link-item">Contact Us</a></li>
+                <li>
+                  <button class="navbar__link-item-search-btn">
+                    <img
+                      class="navbar__link-item-search-icon"
+                      src="assets/icons/search-icon.svg"
+                      alt="search"
+                    />
+                  </button>
+                </li>
+              </ul>
+
+              <hr class="navbar__divider" />
+
+              <div class="navbar__search-container">
+                <p class="navbar__search-title">
+                  Looking for a specific article?
+                </p>
+
+                <label for="search" class="navbar__input-container">
+                  <input
+                    id="search"
+                    type="text"
+                    placeholder="Article title, topic or category"
+                    class="navbar__search-input"
+                  />
+                  <img
+                    class="navbar__search-icon"
+                    src="assets/icons/search-icon.svg"
+                    alt="search"
+                  />
+                </label>
+
+                <button class="navbar__search-btn">Search</button>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+
+      <main>
+        <section class="section-hero">
+          <p class="section-hero__tagline">LUX VENTUS MAGAZINE</p>
+
+          <h1 class="section-hero__title">
+            We Are the
+            <span class="section-hero__title--highlight"> Ventus Fashion</span>
+          </h1>
+
+          <p class="section-hero__description">
+            We like to gossip about everything, but we will never forget the
+            daily fashion dose.
+          </p>
+        </section>
+
+        <section class="section-topics">
+          <div class="section-topics__header">
+            <h2 class="section-topics__title">Topics</h2>
+
+            <div class="section-topics__chevron-container">
+              <button class="section-topics__chevron-btn">
+                <img
+                  class="section-topics__chevron-icon"
+                  src="assets/icons/chevron.svg"
+                  alt="chevron arrow"
+                />
+              </button>
+
+              <button class="section-topics__chevron-btn">
+                <img
+                  class="section-topics__chevron-icon"
+                  src="assets/icons/chevron.svg"
+                  alt="chevron arrow"
+                />
+              </button>
+            </div>
+          </div>
+
+          <ul class="section-topics__items-list">
+            <li class="section-topics__item">
+              <img
+                class="section-topics__item-icon"
+                src="assets/icons/underwear.svg"
+                alt="lingerie underwear"
+              />
+              <p class="section-topics__item-name">Lingerie</p>
+              <button class="section-topics__item-btn">View More</button>
+            </li>
+
+            <li class="section-topics__item">
+              <img
+                class="section-topics__item-icon"
+                src="assets/icons/dress.svg"
+                alt="dress"
+              />
+              <p class="section-topics__item-name">Spring</p>
+              <button class="section-topics__item-btn">View More</button>
+            </li>
+
+            <li class="section-topics__item">
+              <img
+                class="section-topics__item-icon"
+                src="assets/icons/chakra.svg"
+                alt="chakra"
+              />
+              <p class="section-topics__item-name">Yoga</p>
+              <button class="section-topics__item-btn">View More</button>
+            </li>
+
+            <li class="section-topics__item">
+              <img
+                class="section-topics__item-icon"
+                src="assets/icons/lipstick.svg"
+                alt="lipstick"
+              />
+              <p class="section-topics__item-name">Glow</p>
+              <button class="section-topics__item-btn">View More</button>
+            </li>
+
+            <li class="section-topics__item">
+              <img
+                class="section-topics__item-icon"
+                src="assets/icons/wedding-dress.svg"
+                alt="wedding dress"
+              />
+              <p class="section-topics__item-name">Ensembles</p>
+              <button class="section-topics__item-btn">View More</button>
+            </li>
+
+            <li class="section-topics__item">
+              <img
+                class="section-topics__item-icon"
+                src="assets/icons/mask.svg"
+                alt="theater mask"
+              />
+              <p class="section-topics__item-name">Skin Care</p>
+              <button class="section-topics__item-btn">View More</button>
+            </li>
+          </ul>
+        </section>
+
+        <hr class="section-divider" />
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+
+    <!-- =============================FASHION-SECTION==================== -->
+    <div class="content-wrapper">
+      <main>
+        <section class="section-trending">
+          <article class="section-trending__featured-article">
+            <div class="section-trending__featured-article-img-container">
+              <img
+                class="section-trending__featured-article-img"
+                src="assets/images/two-people-posing.webp"
+                alt="two people posing"
+              />
+
+              <span class="section-trending__featured-article-tagline"
+                >Fashion</span
+              >
+            </div>
+
+            <div class="section-trending__featured-article-info-container">
+              <div class="section-trending__featured-article-author-container">
+                <img
+                  class="section-trending__featured-article-author-img"
+                  src="assets/images/author-image.webp"
+                  alt="mallory reyn"
+                />
+
+                <div
+                  class="section-trending__featured-article-author-info-container"
+                >
+                  <p>Mallory Reyn</p>
+                  <p>April 14th, 2023</p>
+                </div>
+
+                <span class="featured-article-text">Coming in hot!</span>
+              </div>
+
+              <div class="section-trending__featured-article-about-container">
+                <h3 class="section-trending__featured-article-title">
+                  The Latest Trends from the Moon Fashion Week.
+                </h3>
+                <p class="section-trending__featured-article-description">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et
+                  massa mi. Aliquam in hendrerit urna. Pellentesque sit amet
+                  sapien fringilla, mattis ligula consectetur, ultrices mauris.
+                  Maecenas vitae mattis tellus. Nullam quis imperdiet augue.
+                  Vestibulum.
+                </p>
+              </div>
+
+              <a class="section-trending__featured-article-btn" href="#">
+                <img src="assets/icons/arrow.svg" alt="arrow" /> Read more
+              </a>
+            </div>
+          </article>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
+
